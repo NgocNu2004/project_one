@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+.container{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.list_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.list_item{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    list-style: none;
+
+}
+.item{
+    padding: 5px;
+}
+.item:hover{
+    background-color: rgb(214, 210, 210);
+    color:black;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 0;
+}
+
+.item>a{
+    text-decoration: none;
+}
+.block_image>img{
+    width: 100%;
+    height: 60%;
+}
+#home{
+    z-index: 0;
+}
+#band>header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  5px;
+}
+#band>header>h2{
+    color: black;
+    padding: 5px;
+}
+#band>header>p{
+    color: black;
+}
+#band>main>p{
+    color: black;
+}
+#band>footer{
+    margin: 20px;
+}
+#band>footer{
+    display: flex;
+    justify-content: space-around;
+}
+.block_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block_card>p{
+    color: black;
+    margin-bottom: 10px;
+}
+#tour{
+    background-color: black;
+}
+.anh>header>h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.anh>header>p{
+    text-align: center;
+    color:gray;
+    font-style: italic ;
+    margin-bottom: 50px;
+}
+.anh {
+    padding:100px;
+    height:900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cite{
+    background-color: white;
+    color:black;
+    padding:10px;
+    border: 1px solid gray;
+}
+.number{
+    background-color: black;
+    color:white;
+    border-radius: 100%;
+    padding: 5px 10px;
+    /* padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px; */
+
+}
+.cite2{
+    display: flex;
+    justify-content: space-between;
+}
+.span_text
+{
+background-color:red;
+color:white;
+margin-left: 30px ;
+padding: 5px;
+}
+.tour_footer{
+    display:flex;
+    justify-content: space-between;
+}
+.block_hiii{
+    background-color: white;
+    height: 250px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:20px;
+}
+.tua{
+    color:black;
+}
+.ngay{
+    color:gray;
+}
+.nut{
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+    padding:5px
+}
+
+.card{
+    width: 220px;
+}
+.trang>img{
+    width: 220px;
+
+}
+.tuabai>h1{
+    color:black;
+
+}
+.tuabai>p{
+    color:gray;
+    margin-top: 30px;
+}
+.tuabai{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    
+}
+.diadiem>ul>li{
+    color:black;
+    margin-top: 10px;
+}
+.diadiem>ul{
+    list-style: none;
+}
+.diadiem>ul>li>i{
+    color:black;
+}
+.noidung{
+    display: flex;
+    justify-content:space-around;
+}
+.gui{
+    background-color: black;
+    padding: 10px ;
+    border: none;
+}
+.nhan{
+    display: flex;
+    justify-content:end;
+    margin-top: 30px;
+
+}
+.chunghang{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-between;
+width: 410px;
+
+}
+.tinnhan{
+    width: 410px;
+    padding: 10px;
+}
+.name{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+}
+
+.gui:hover{
+    background-color: rgb(176, 176, 176);
+    color: black;
+}
+.end>img{
+    margin-top: 50px;
+    width: 100%;
+}
+.bieutuong>ul>li>i{
+    color:black;
+    margin-top: 30px;
+}
+.bieutuong>ul{
+    display: flex;
+    justify-content: center;
+}
+.w3>p{
+    color:gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.w3>p>a{
+    color:gray;
+
+}
+.lienket>li{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.lienket>li:hover{
+    background-color: rgb(171, 171, 171);
+    color: white;
+}
+
+
+.item:last-child:hover .lienket{
+    display: block;
+}
+
+
+
+
+.lienket{
+   
+    position: absolute;
+    top: 30px;
+    left: 280px;
+    list-style: none;
+    z-index: 3;
+    display: none;
+}
+
+
+
+
+
