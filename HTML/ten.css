@@ -77,6 +77,16 @@
     color: black;
     margin-bottom: 10px;
 }
+
+#model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 42, 42, 0.555);
+    
+}
 #tour{
     background-color: black;
 }
@@ -259,7 +269,10 @@ width: 410px;
 }
 
 
-
+#model{
+    color: black;
+    display: none;
+}
 
 .lienket{
    
@@ -270,8 +283,129 @@ width: 410px;
     z-index: 3;
     display: none;
 }
+.tickets_1{
+    color:white;
+    background-color:rgb(18, 208, 186) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 500px;
+    font-size:30px;
+    position: relative; 
+    gap: 10px;
+}
+.xoa{
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+.tickets_2{
+    color:black;
+    background-color: white;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    height:50px;
+    width: 500px;
+    gap:0px;
+    
+}
+.bxs-cart-alt{
+    color:black;
+   margin-left: 15px;
+}
+.tickets_3{
+    color:gray;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    width: 500px;
+    height:70px;
 
+}
 
+.nhap_1{
+    color:gray;
+    width:90%;
+    height:50px;
+    padding: 5px;
 
+}
+.tickets_4{
+    color:black;
+    background-color: white;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    height:50px;
+    width: 500px;
+    gap:0px;
+}
+.bxs-user{
+    color:black;
+   margin-left: 15px;
+}
+.tickets_5{
+    color:gray;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    width: 500px;
+    height:70px;
+}
+.nhap_2{
+    color:gray;
+    width:90%;
+    height:50px;
+    padding: 5px;
+}
+.tickets_6{
+color:white;
+background-color:white;
+width: 500px;
+    height:70px;
+    display:flex;
+    justify-content:center;
+   
+}
+.nut_1{
+    font-size:20px;
+    justify-content:center;
+    background-color:rgb(18, 208, 186);
+    width:90%;
+    height:70px;
+    border:none;
+}
+.tickets_7{
+    background-color: white;
+    width:500px;
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+.iconX{
+    font-size: 20px;
+    font-weight: bold !important;
+}
+.nut_2{
+    background-color:red;
+color:white;
+width:90px;
+    height:40px;
+    font-size:20px;
+    border:none;
+}
+.cuoi_1{
+    color:black;
 
+}
+.cuoi_2{
+    color:rgb(56, 144, 191)
+}
+.hien{
+    margin:50 auto;
+    width:500px;
+}
 
