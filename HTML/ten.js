@@ -3,16 +3,16 @@
 //let
 
 
-var a = [
-    {
-       ảnh: link,
+// var a = [
+//     {
+//        ảnh: link,
         
-    },
-    {
-        name: "name 1",
-        age: 8
-    }
-];  //4
+//     },
+//     {
+//         name: "name 1",
+//         age: 8
+//     }
+// ];  //4
 
 
 console.log(a)
