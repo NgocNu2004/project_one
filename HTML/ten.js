@@ -15,31 +15,30 @@
 // ];  //4
 
 
-console.log(a)
-let c = {
-    name: 'Name',
-    age: 8,
-    c: true
-}
+// let c = {
+//     name: 'Name',
+//     age: 8,
+//     c: true
+// }
 
 
-function sum(a, b)
-{
+// function sum(a, b)
+// {
     
-    return a+b;
-}
+//     return a+b;
+// }
 
 
-var l = sum(5, 8);
+// var l = sum(5, 8);
 
-console.log(l);
+// console.log(l);
 
 // var s = log(1, 6, 9);
 
 
 
 // console.log(s)
-var b = 'hello world';
+// var b = 'hello world';
 // for(let i = 0; i < b.length ; i++){
 //     console.log(i);
 // }
